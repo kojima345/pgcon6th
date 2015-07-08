@@ -1,7 +1,5 @@
 # coding: utf-8
 import sys
-import time
-start = time.time()
 stick = []
 
 L = int(sys.stdin.readline()) #1行目L
@@ -20,6 +18,3 @@ for a in xrange(0,number):
 				answer_num += 1
 
 print('answer is %i' % answer_num)
-
-elapsed_time = time.time() - start
-print("elapsed_time:{0}".format(elapsed_time))
