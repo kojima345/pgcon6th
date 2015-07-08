@@ -1,2 +1,2 @@
 # pgcon6th
-$ python pgcon6th.py < stick.txt
+$ ./pgcon6th.py < stick.txt
