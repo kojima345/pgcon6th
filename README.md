@@ -1,4 +1,4 @@
 # pgcon6th
 
-コマンド↓
+コマンド ： 
 $ python pgcon6th.py < ???.txt
