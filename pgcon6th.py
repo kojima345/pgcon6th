@@ -4,8 +4,8 @@ stick = []
 
 L = int(sys.stdin.readline()) #1行目L
 number = int(sys.stdin.readline()) #2行目棒の数
-for i in sys.stdin:
-	stick.append(int(i)) #3行目～　各棒をリストに追加
+for i in xrange(number):
+	stick.append(int(sys.stdin.readline())) #3行目～　各棒をリストに追加
 
 answer_num = 0
 
